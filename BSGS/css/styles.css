@@ -1,0 +1,145 @@
+#navbar {
+	background-color: transparent;
+	border-bottom: none;
+}
+
+.b1, .b1:hover {
+	color: white;
+}
+
+.btn-group {
+	margin-top: 10px;
+}
+
+li {
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+}
+
+#gs {
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	font-size: 2em;
+	color: blue;
+	margin-left: 70px;
+}
+
+/*.navbar-header:hover a span.new-label:before{
+ 	content: 'Conference';
+  	font-family: "Helvetica Neue";
+	font-weight: 100;
+	font-size: 1em;
+	color: rgb(255, 255, 255);
+} */
+
+#sol {
+	color: rgb(35, 28, 153); /*215, 215, 215*/
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	font-size: 1em;
+	margin-left: -15px;
+}
+
+
+.n1 {
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	font-size: 1.5em;
+	color: black;
+}
+
+.jumbotron {
+	background: rgb(215, 215, 215) url("bgimage.jpg") center no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+/*#carousel-example-generic {
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}*/
+
+.jumbotron h1, .jumbotron h2 {
+	font-family: "Helvetica Neue";
+	color: white;
+	margin-top: 0.5in;
+	margin-left: 1in;
+	margin-right: 1in;
+}
+
+.jumbotron h1 {
+	font-weight: 200;
+}
+
+
+.jumbotron h2 {
+	font-weight: 100;
+	font-size: 30pt;
+}
+
+.jumbotron img {
+	width: 160px;
+	height: 160px;
+}
+
+.jumbotron h4, .jumbotron p {
+	font-family: "Helvetica Neue";
+	font-size: 10pt;
+	color: white;
+}
+
+.jumbotron .row {
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 20px;
+}
+
+.about_contact p {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+@media only screen and (max-width: 766px) {
+	.collapsing, .in {
+	background-color: rgba(247,247,247, 0.9);
+	text-align: center;
+	}
+	.collapsing ul li a, .in ul li a {
+		color: rgb(225, 225, 225);
+	}
+
+}
+
+#popover {
+	color: rgb(47, 125, 202);
+
+}
+
+/* html,body{height:100%;}
+.ca rousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+
+/* faster sliding speed */
+/*.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+/* keep full widget on smaller screens */
+/*@media (max-width: 767px) { 
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+} */)
